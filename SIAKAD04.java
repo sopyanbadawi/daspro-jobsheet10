@@ -21,6 +21,8 @@ public class SIAKAD04 {
 
             System.out.println("Nilai rata-rata: " + totalPerSiswa/matkul);
         }
+        System.out.println("\n===================================");
+        System.out.println("Rata-rata Nilai setiap Mata Kuliah");
 
         for (int j = 0; j < matkul; j++) {
             double totalPerMatkul = 0;
